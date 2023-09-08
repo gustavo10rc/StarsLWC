@@ -1,0 +1,15 @@
+/* satisfactionRating.css */
+.star {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    margin-right: 0.2rem;
+    cursor: pointer;
+}
+
+.star.selected {
+    background-color: gold;
+    border-color: gold;
+}
